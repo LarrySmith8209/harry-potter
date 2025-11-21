@@ -12,4 +12,4 @@ class sort:
                  return f"{name} you are in phoehix"
              elif sorting==house.houses[1]:
                  return f"{name} you are in thunderbird"
-             """test commit"""
+             
