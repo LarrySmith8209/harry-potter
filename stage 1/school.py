@@ -1,6 +1,6 @@
 from houses import house
 from sorting import quiz
-from housecup import house_points, update_score, display_scores
+from housecup import housecup
 from years import year1, year2, year3, year4, year5, year6, year7
 from classes import classes
 class school:
