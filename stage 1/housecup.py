@@ -4,10 +4,12 @@ from  standings import standings
 
 # Initialize scores using a dictionary
 house_points = {
-    "phoehix": 0,
-    "thunderbird": 0,
-    "dragon": 0,
-    "wolf": 0
+      "phoehix": 0,
+    " thunderbird": 0,
+      "dragon": 0,
+      "wolf": 0,
+      "Hippogriff": 0,
+    "sphinx": 0
 }
 
 def update_score(house_name, points):
@@ -32,6 +34,8 @@ update_score("phoehix",())
 update_score={"thunderbird",()}
 update_score("dragon",{})
 update_score("wolf",{})
+update_score("Hippogriff",{})
+update_score("sphinx",{})
 
 display_scores()
 print(house_points)

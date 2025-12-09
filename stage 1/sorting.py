@@ -17,6 +17,11 @@ class quiz:
              
              elif sorting==house.houses[3]:
                     return f"{name} you are in wolf"
+             
+             elif sorting==house.houses[4]:
+                    return f"{name} you are in Hippogriff"
+             elif sorting==house.houses[5]:
+                    return f"{name} you are in sphinx"
     sorting= random.choice(house.houses)
     def get_sorting(self):
         return self.sorting
