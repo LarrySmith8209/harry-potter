@@ -40,6 +40,45 @@ class classes:
              def __init__(self, class_name, time):
                  self.class_name = class_name
                  self.time = time 
-        def display_time(self):
-                    print(f"{self.class_name} is scheduled at {self.time}")
-                    return self.time
+                 def display_time(self):
+                      print(f"{self.class_name} is scheduled at {self.time}")
+                      return self.time
+             class semesters:
+              semester1 = ["September", "October", "November", "December", "January"]
+              semester2 = ["February", "March", "April", "May", "June"] 
+
+              class exams:
+                  midterms = ["Potions", "Herbology", "Transfiguration", "Defense Against the Dark Arts", "Charms"]
+                  finals = ["Potions",  "Herbology", "Transfiguration", "Defense Against the Dark Arts", "Charms", "Care of Magical Creatures", "Divination", "History of Magic", "Arithmancy", "Muggle Studies", "Ancient Runes", "Magical Law", "Advanced Potion-Making", "Dark Arts Defense", "Magical Theory", "Wizarding History"]
+
+                  class grading:
+                      
+                      def grade_student(student_name, class_name, score):
+                          if score >= 90:
+                              grade = 'A'
+                          elif score >= 80:
+                              grade = 'B'
+                          elif score >= 70:
+                              grade = 'C'
+                          elif score >= 60:
+                              grade = 'D'
+                          else:
+                              grade = 'F'
+                          print(f"{student_name} received a grade of {grade} in {class_name}.")
+                          return grade
+                      
+                          class attendance:
+                              def record_attendance(student_name, class_name, present):
+                               status = "present" if present else "absent"
+                               print(f"{student_name} is {status} for {class_name}.")
+                               return status
+                          class schedule:
+                            ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+                            def display_weekly_schedule(self):
+                                print("Weekly Class Schedule:")
+                                for day in self.schedule:
+                                    print(f"- {day}")
+                                return self.schedule
+                            
+                            
+                        

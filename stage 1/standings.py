@@ -1,5 +1,10 @@
 import random
+from school import school
+from houses import house
 from housecup import house_points
+class houses:
+    def __init__(self):
+        self.houses = house.houses
 class standings:
     def display_standings(self):
         sorted_scores = sorted(house_points.items(), key=lambda item: item[1], reverse=True)
