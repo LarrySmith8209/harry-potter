@@ -2,9 +2,15 @@ import random
 from houses import house
 
 class quiz:
-  
+   for sorting in house.houses:
+         print(f"Possible house: {sorting}")
+         qustion=("how would pepole describe you? A: Brave B: Loyal C: Intelligent D: Ambitious E: Kind F: Mysterious")
+         answer=input("Enter your answer (A-F): ")
+print("You have answered the sorting question")
+print("Sorting you into a house...")
+print("You have been sorted! into"["house_name"])
 
-   class sort:
+class sort:
     def storting(self, name):
          for sorting in quiz.sorting:
              if sorting==house.houses[0]:
