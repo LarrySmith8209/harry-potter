@@ -1,5 +1,6 @@
 import random
-
+from school import school
+from sorting import quiz
 
 
 class house:

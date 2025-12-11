@@ -1,4 +1,5 @@
 import random
+from school import school
 from houses import house 
 from  standings import standings   
 

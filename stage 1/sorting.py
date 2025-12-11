@@ -25,3 +25,5 @@ class quiz:
     sorting= random.choice(house.houses)
     def get_sorting(self):
         return self.sorting
+    def display_sorting(self):
+        return f"The selected house is {self.sorting}"

@@ -1,6 +1,9 @@
 from school import house
 from sorting import quiz
 from years import years
+from classes import classes
+from semester import semester
+from housecup import housecup
 class player_creation:
     def create_player(self, name, age):
         self.name = name

@@ -1,4 +1,5 @@
 from school import school
+from classes import classes
 class quarter:
     def __init__(self, quarter_number):
         self.quarter_number = quarter_number
