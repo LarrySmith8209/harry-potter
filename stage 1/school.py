@@ -40,4 +40,32 @@ class school_events:
         def ceremony_details(self):
         
            return "Graduation Ceremony is held at the end of the seventh year to celebrate student achievements."
-    
+    class house_cup_wins:
+        house_wins = {
+                              "phoehix": 7, 
+                              "thunderbird": 4,
+                              "dragon": 6,
+                              "wolf": 6,
+                              "hippogriff": 3,
+                              "sphinx": 0
+                        }
+                        
+    class quidditch_titles:
+        titles = {
+                              "phoehix": 5,
+                              "thunderbird": 5,
+                              "dragon": 4,
+                              "wolf": 3,
+                              "hippogriff": 0,
+                              "sphinx": 0
+                        }
+        
+    class quidditch_finals_history:
+            finals_history= {
+                "phoehix":["2016 champions","2020: Champions", "2021: Runners-up", "2022: Champions"],
+                "thunderbird":["2019: Champions", "2020: Semi-finalists", "2021: Champions"],
+                "dragon":["2018: Runners-up", "2019: Semi-finalists", "2020: Champions"],
+                "wolf":["2017: Champions", "2018: Runners-up", "2019: Semi-finalists"],
+                "hippogriff":["No appearances in finals"],
+                "sphinx":["No appearances in finals"]
+            }

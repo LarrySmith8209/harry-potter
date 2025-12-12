@@ -66,3 +66,11 @@ class dormitory_access:
                   wolf="Team Sports, Study Groups, and Community Service."
                   hippogriff="Nature Walks, Kindness Campaigns, and Honor Ceremonies."
                   sphinx="Puzzle Solving, Intellectual Debates, and History Clubs."
+                  class househistory:
+                        phoehix="Founded by Finneas Phoenix, known for bravery and resilience."
+                        thunderbird="Founded by Theodore Thunderbird, celebrated for adventurousness."
+                        dragon="Founded by Godric Pendragon, renowned for ambition and cunning."
+                        wolf="Founded by Luna Wolf, admired for loyalty and hard work."
+                        hippogriff="Founded by Helena Hippogriff, respected for kindness and honor."
+                        sphinx="Founded by Selene Sphinx, esteemed for intelligence and wisdom."
+                     
