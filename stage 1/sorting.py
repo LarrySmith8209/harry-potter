@@ -33,7 +33,16 @@ class sort:
         return self.sorting
     def display_sorting(self):
         return f"The selected house is {self.sorting}"
-        else:
-        return "Invalid answer. Please choose A, B, C, D, E, or F."
+    def invalid_answer(self, answer):
+        if answer not in ['A', 'B', 'C', 'D', 'E', 'F']:
+            return "Invalid answer. Please choose A, B, C, D, E, or F."
         
+class final_sort:
+    def final_sorting(self, name):
+        sorter=sort()
+        sorting=sorter.get_sorting()
+        return sorter.storting(name)
+    
+    
+
         
