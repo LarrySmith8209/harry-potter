@@ -80,5 +80,141 @@ class classes:
                                     print(f"- {day}")
                                 return self.schedule
                             
-                            
-                        
+                            class Potions:
+                                def __init__(self):
+                                    self.name = "Potions"
+                                    self.time = "09:00 AM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Basic Potion-Making", "Advanced Potion-Making", "Healing Potions", "Poison Antidotes"]
+                                    return self.topics
+                            class Herbology:
+                                def __init__(self):
+                                    self.name = "Herbology"
+                                    self.time = "11:00 AM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Magical Plants", "Plant Care", "Herbal Remedies", "Dangerous Flora"]
+                                    return self.topics
+                            class Transfiguration:
+                                def __init__(self):
+                                    self.name = "Transfiguration"
+                                    self.time = "01:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Basic Transfiguration", "Human Transfiguration", "Animal Transfiguration", "Inanimate Objects"]
+                                    return self.topics
+                            class DefenseAgainsttheDarkArts:
+                                def __init__(self):
+                                    self.name = "Defense Against the Dark Arts"
+                                    self.time = "03:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Dark Creatures", "Defensive Spells", "Counter-Curses", "Dark Arts History"]
+                                    return self.topics
+                            class Charms:
+                                def __init__(self):
+                                    self.name = "Charms"
+                                    self.time = "04:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Basic Charms", "Charm Theory", "Advanced Charms", "Charm Applications"]
+                                    return self.topics
+                            class Flying:
+                                def __init__(self):
+                                    self.name = "Flying"
+                                    self.time = "10:00 AM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Broomstick Basics", "Advanced Flying Techniques", "Flying Safety", "Quidditch Skills"]
+                                    return self.topics
+                            class CareOfMagicalCreatures:
+                                def __init__(self):
+                                    self.name = "Care of Magical Creatures"
+                                    self.time = "02:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Magical Creature Care", "Creature Behavior", "Handling Techniques", "Creature Habitats"]
+                                    return self.topics
+                            class Divination:
+
+                                def __init__(self):
+                                    self.name = "Divination"
+                                    self.time = "12:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Tea Leaf Reading", "Crystal Ball Gazing", "Astrology", "Dream Interpretation"]
+                                    return self.topics
+                            class HistoryOfMagic:
+                                def __init__(self):
+                                    self.name = "History of Magic"
+                                    self.time = "11:00 AM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Magical History", "Famous Wizards", "Magical Wars", "Historical Events"]
+                                    return self.topics
+                            class Arithmancy:
+                                def __init__(self):
+                                    self.name = "Arithmancy"
+                                    self.time = "01:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Numerology", "Magical Properties of Numbers", "Divination through Numbers", "Advanced Arithmancy"]
+                                    return self.topics
+                            class MuggleStudies:
+                                def __init__(self):
+                                    self.name = "Muggle Studies"
+                                    self.time = "03:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Muggle Culture", "Muggle Technology", "Muggle History", "Muggle Society"]
+                                    return self.topics
+                            class AncientRunes:
+                                def __init__(self):
+                                    self.name = "Ancient Runes"
+                                    self.time = "10:00 AM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Rune Translation", "Ancient Scripts", "Magical Inscriptions", "Rune History"]
+                                    return self.topics
+                            class MagicalLaw:
+                                def __init__(self):
+                                    self.name = "Magical Law"
+                                    self.time = "12:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Wizarding Laws", "Legal Cases", "Magical Ethics", "Law Enforcement"]
+                                    return self.topics
+                            class AdvancedPotionMaking:
+                                def __init__(self):
+                                    self.name = "Advanced Potion-Making"
+                                    self.time = "02:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Complex Potions", "Potion Ingredients", "Potion Effects", "Potion Safety"]
+                                    return self.topics
+                            class DarkArtsDefense:
+                                def __init__(self):
+                                    self.name = "Dark Arts Defense"
+                                    self.time = "04:00 PM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Dark Arts Techniques", "Defensive Strategies", "Dark Creatures", "Counter-Dark Arts"]
+                                    return self.topics
+                            class MagicalTheory:
+                                def __init__(self):
+                                    self.name = "Magical Theory"
+                                    self.time = "09:00 AM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Magic Fundamentals", "Spell Mechanics", "Magical Energy", "Theoretical Applications"]
+                                    return self.topics
+                            class WizardingHistory:
+                                def __init__(self):
+                                    self.name = "Wizarding History"
+                                    self.time = "11:00 AM"
+                                def display_info(self):
+                                    print(f"Class: {self.name}, Time: {self.time}")
+                                    self.topics = ["Wizarding Eras", "Famous Events", "Historical Figures", "Magical Societies"]
+                                    return self.topics
+                                

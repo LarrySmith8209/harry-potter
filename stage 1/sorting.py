@@ -33,3 +33,7 @@ class sort:
         return self.sorting
     def display_sorting(self):
         return f"The selected house is {self.sorting}"
+        else:
+        return "Invalid answer. Please choose A, B, C, D, E, or F."
+        
+        

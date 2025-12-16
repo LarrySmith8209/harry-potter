@@ -19,7 +19,7 @@ class housecolors:
       phoehix=("red", "gold")
       thunderbird=("blue", "silver")
       dragon=("green", "black")
-      wolf=("gray", "black")
+      wolf=("silver", "black")
       hippogriff=("white", "bronze")
       sphinx=("purple", "silver")
 
